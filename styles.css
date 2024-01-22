@@ -65,7 +65,8 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
 .CTAcontainer1 a{
@@ -683,10 +684,12 @@ p{
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 
-.MMLDetailCard{
+.MMLDetailCard1{
     width: 25%;
     flex-grow: 1;
     gap: 20px;
@@ -699,18 +702,52 @@ p{
     -o-border-radius: 20px;
     display: flex;
     flex-direction: column;
+    
 }
-.MMLDetailCard img{
+
+.MMLDetailCard2{
+    width: 40%;
+    flex-grow: 1;
+    gap: 20px;
+    background-color: #F29C39;
+    padding: 30px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.MMLDetailCard1 img{
     width: 60px;
     height: 60px;
     object-fit: cover;
 }
-.MMLDetailCard h2{
+.MMLDetailCard1 h2{
     font-size: 1.7rem;
     font-weight: 700;
     color: #FFFFFF;
 }
-.MMLDetailCard p{
+.MMLDetailCard1 p{
+    font-size: 1rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.MMLDetailCard2 img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.MMLDetailCard2 h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.MMLDetailCard2 p{
     font-size: 1rem;
     text-align: left;
     color: #FFFFFF;
@@ -1241,4 +1278,586 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
+}
+/* ---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 768px) {
+    .hiroContainer{
+        max-width: 600px;
+    }
+    .hiroContainer img{
+        width: 40%;
+    }
+    .hiroContainer h2{
+        font-size: 1rem;
+    }
+    
+    .hiroContainer h1{
+        font-size: 2.2rem;
+    }
+    
+    .hiroContainer p{
+        font-size: 1rem;
+    }
+    .CTAcontainer{
+        width: 100%;
+    }
+    .CTAcontainer1 a{
+        font-size: 1rem;
+    }
+    
+    .CTAcontainer2 a{
+        font-size: 1rem;
+    }
+
+    /* -------------------Benefit---------------------- */
+
+    .benefit{
+        padding: 10px;
+    }
+    .benefitContainer{
+        width: 700px;
+        flex-grow: 1;
+
+    }
+    
+    .benefitCard{
+        width: 25%;
+    }
+    .benefitCard img{
+        width: 40%;
+    }
+    .benefitCard h2{
+        font-size: 1.2rem;
+    }
+    .benefitCard p{
+        font-size: 1rem;
+    }
+    /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+    .SITcontainer_green{
+        width: 700px;
+        flex-grow: 1;
+    }
+    .SITcontainer_image{
+        width: 40%;
+        height: 500px;
+        align-items: stretch;
+    }
+
+    .SITcontainer_image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .SITcontainer_text{
+        width: 40%;
+
+    }
+
+    .SITcontainer_text h3{
+        font-size: 1rem;
+    }
+    .SITcontainer_text h2{
+        font-size: 1.5rem;
+    }
+    .CTAcontainer_SIT{
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .CTAcontainer1_SIT{
+        flex-grow: 1;
+    }
+    
+    .CTAcontainer2_SIT{
+        flex-grow: 1;
+        
+    }
+
+    .CTAcontainer1_SIT a{
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+    .CTAcontainer2_SIT a{
+        font-size: 1rem;
+        justify-content: center;
+    }
+    .SITcontainer_white{
+        width: 700px;
+        flex-grow: 1;
+    }
+    /* --------------------------------------Comment------------------ */
+
+    .commentsContainer{
+        width: 700px;
+    }
+    .commentsContainer h3{
+        font-size: 1rem;
+    }
+    .commentsContainer h2{
+        font-size: 2rem;
+    }
+    .commentsCard h2{
+        font-size: 1.2rem;
+    }
+    .commentsCard p{
+        font-size: 0.8rem;
+    }
+    .commentsReviewText h2{
+        font-size: 1.2rem;
+    }
+    .commentsReviewButton a{
+        font-size: 1rem;
+    }
+
+    /* ----------------------------Proses Belajar-------------------------------------- */
+
+
+    .prosesBelajarContainer{
+        width: 700px;
+    }
+
+    .prosesBelajarContainer h3{
+        font-size: 1rem;
+    }
+    .prosesBelajarContainer h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .prosesBelajarDetail{
+        align-items: flex-start;
+        flex-grow: 1;
+    }
+    .prosesBelajarDetailCard img{
+        width: 40%;
+    }
+    .prosesBelajarDetailCard h2{
+        font-size: 1.2rem;
+    }
+    .prosesBelajarDetailCard p{
+        font-size: 0.9rem;
+    }
+    .PBcontainer_SIT{
+        width: 80%;
+    }
+
+    .PBcontainer1_SIT a{
+        font-size: 1rem;
+    }
+
+    .PBcontainer2_SIT a{
+        font-size: 1rem;
+    }
+
+    /* -----------------------------------Mengapa Memilih Les----------------------------------------- */
+
+    .MMLContainer h3{
+        font-size: 1rem;
+    }
+    .MMLContainer h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .MMLContainer p{
+        font-size: 0.9rem;
+    }
+    .MMLDetailBase{
+        align-items: stretch;
+    }
+    .MMLDetailCard1{
+        width: 40%;
+    }
+
+    .MMLDetailCard1 h2{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .MMLDetailCard1 p{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    
+    .MMLDetailCard2 h2{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .MMLDetailCard2 p{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    
+    .MMLButtonContainer{
+        width: 80%;
+    }
+    /* -----------------------------SITS---------------------------------- */
+    .SITSecondarycontainer_image{
+        width: 100%;
+
+    }
+
+    .SITSecondarycontainer_green{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .SITScontainer_SIT{
+        width: 100%;
+    }
+
+    .SITSecondarycontainer_white{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    
+    .SITScontainer_text{
+        margin-top: 50px;
+        width: 80%;
+    }
+    
+    .SITScontainer_text_white{
+        margin-top: 50px;
+        width: 80%;
+    }
+    
+    .SITScontainer_text_white h3{
+        font-size: 1rem;
+    }
+    
+    .SITScontainer_text h3{
+        font-size: 1rem;
+    }
+
+    /* ----------------------------------Contact Us---------------------------------------------- */
+
+
+
+    .CUCtextbase{
+        width: 100%;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .CUCtextbase h3{
+        font-size: 1rem;
+        color: #F29C39;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .CUCtextbase h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .CUCButtonContainer{
+        width: 100%;
+    }
+
+    /* ---------------------------FAQ---------------------------------------- */
+
+
+
+    .FAQContainer h3{
+        font-size: 1rem;
+    }
+    .FAQContainer h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .FAQSectionCard_Heading h3{
+        font-size: 1rem;
+    }
+    .FAQSectionCard_Heading i{
+        font-size: 1rem;
+    }
+
+    .FAQcontainer1 a{
+        font-size: 1rem;
+    }
+
+    .FAQcontainer2 a{
+        font-size: 1rem;
+    }
+
+
+    /* =-=------------------------------FOOTER-------------------------------=-= */
+
+
+
+
+    .footerContainerContact h3{
+        font-size: 1.2rem;
+    }
+    .footerContainerContact p{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .footerContainerLocation h3{
+        font-size: 1.2rem;
+    }
+
+    .footerContainerLocation i{
+        color: #F29C39;
+        font-size: 1rem;
+    }
+    .footerContainerLocation p{
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .FCLplaceBase{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .FCLplace{
+        gap: 10px;
+    }
+    .FCLplaceLeft{
+        margin-top: 0px;
+    }
+
+    .FCLplaceRight{
+        margin-top: 0px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 425px) {
+    /* ---------------HIRO-------------- */
+    .hiro{    
+        padding: 100px 30px 150px;
+        width: 100%;
+    }
+    .hiroContainer{
+        width: auto;
+    }
+    
+    .hiroContainer img{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    
+    .hiroContainer h2{
+        font-size: 1rem;
+    }
+    
+    .hiroContainer h1{
+        font-size: 2rem;
+    }
+    
+    .hiroContainer p{
+        font-size: 0.8rem;
+    }
+    .CTAcontainer{
+        gap: 24px;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .CTAcontainer1{
+        width: 100%;
+    }
+    .CTAcontainer2{
+        width: 100%;
+    }
+
+    /* -------------BENEFIT------------- */
+    .benefitContainer{
+        flex-direction: column;
+    }
+    .benefitCard{
+        width: 100%;
+    }
+    .benefitCard img{
+        width: 20%;
+    }
+    /* -------------SITS---------------- */
+     .SITcontainer_green{
+        flex-direction: column-reverse;
+    }
+    .SITcontainer_image{
+        width: 100%;
+        height: auto;
+    }
+
+    .SITcontainer_text{
+        width: 100%;
+    }
+
+    .SITcontainer_white{
+        flex-direction: column-reverse;
+    }
+    .CTAcontainer_SIT{
+        align-items: center;
+        width: 100%;
+    }
+    .CTAcontainer1_SIT{
+        width: 70%;
+    }
+    .CTAcontainer2_SIT{
+        width: 70%;
+    }
+    /* --------Comment------------------ */
+
+    .commentsContainerBase{
+        flex-wrap: wrap;
+    }    
+    .commentsContainer{
+        width: 700px;
+    }
+    .commentsContainer h3{
+        font-size: 1rem;
+    }
+    .commentsContainer h2{
+        font-size: 2rem;
+    }
+    .commentsCard h2{
+        font-size: 1rem;
+    }
+    .commentsCard p{
+        font-size: 0.8rem;
+    }
+    .commentsReviewText h2{
+        font-size: 1rem;
+    }
+    .commentsReviewButton a{
+        font-size: 0.8rem;
+    }
+    /*------Proses Belajar------------- */
+
+
+    .prosesBelajarContainer{
+        width: 700px;
+    }
+
+    .prosesBelajarContainer h3{
+        font-size: 1rem;
+    }
+    .prosesBelajarContainer h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .prosesBelajarDetail{
+        flex-direction: column;
+    }
+    .prosesBelajarDetailCard img{
+        width: 20%;
+    }
+    .prosesBelajarDetailBorder{
+        padding: 2px 200px;
+
+    }
+    .PBcontainer_SIT{
+        width: 90%;
+        flex-direction: column;
+        gap: 24px;
+    
+    }
+    .PBcontainer1_SIT{
+        width: 100%;
+    }
+    .PBcontainer2_SIT{
+        width: 100%;
+    }
+    /* ---------Mengapa Memilih Les---------- */
+
+    
+    .MMLDetailCard1{
+        width: 100%;
+    }
+    .MMLDetailCard2{
+        width: 100%;
+    }
+    .MMLButtonContainer{
+        width: 90%;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    /* ----------SITS------------- */
+    
+    .SITScontainer_text{
+        margin-top: 50px;
+        width: 80%;
+    }
+    
+    .SITScontainer_text_white{
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .SITScontainer_SIT{
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    /* ---------------Contact Us-------- */
+
+
+
+    .CUCButtonContainer{
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    /* ---------------FAQ------------ */
+
+
+
+    .FAQContainer h3{
+        font-size: 1rem;
+    }
+    .FAQContainer h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .FAQSectionCard_Heading h3{
+        font-size: 1rem;
+    }
+    .FAQSectionCard_Heading i{
+        font-size: 1rem;
+    }
+    .FAQButtonContainer{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .FAQcontainer1 a{
+        font-size: 1rem;
+    }
+
+    .FAQcontainer2 a{
+        font-size: 1rem;
+    }
+    /* ----FOOTER---------- */
+    .footerContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    
 }
