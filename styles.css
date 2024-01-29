@@ -1040,7 +1040,6 @@ p{
     gap: 24px;
     width: 100%;
     flex-grow: 1;
-
 }
 
 .FAQSectionCard{
@@ -1053,6 +1052,11 @@ p{
     -o-border-radius: 15px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(25, 142, 152, 0.4);
+    overflow: hidden;
+}
+
+.FAQSectionCard:hover{
+    cursor: pointer;
 }
 
 .FAQSectionCard_Heading{
@@ -1073,8 +1077,14 @@ p{
     font-size: 1.3rem;
 }
 .FAQSectionCard_Text{
-    margin-top: 10px;
-    display: none;
+    margin-top: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
 }
 
 .FAQButtonContainer{
@@ -1085,6 +1095,7 @@ p{
     justify-content: center;
     gap: 24px;
 }
+
 
 .FAQcontainer1 a{
     width: 100%;
@@ -1151,6 +1162,23 @@ p{
     -o-transform: scale(1.05);
 }
 
+.FAQSectionCard.active .FAQSectionCard_Text{
+    margin-top: 10px;
+    max-height: 300px;
+}
+
+.FAQSectionCard.active .FAQSectionCard_Heading i{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    color: #F29C39;
+}
+
+.FAQSectionCard.active .FAQSectionCard_Heading h3{
+    color: #F29C39;
+}
 
 
 
@@ -1911,6 +1939,9 @@ p{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .footerContainerContact{
+        width: 100%;
     }
 
     
