@@ -1642,7 +1642,7 @@ p{
 ---------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width : 425px) {
+@media screen and (max-width : 480px) {
     /* ---------------HIRO-------------- */
     .hiro{    
         padding: 100px 30px 150px;
@@ -1662,7 +1662,7 @@ p{
     }
     
     .hiroContainer h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .hiroContainer p{
@@ -1684,6 +1684,7 @@ p{
     /* -------------BENEFIT------------- */
     .benefitContainer{
         flex-direction: column;
+        width: 100%;
     }
     .benefitCard{
         width: 100%;
@@ -1729,7 +1730,8 @@ p{
         font-size: 1rem;
     }
     .commentsContainer h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
     .commentsCard h2{
         font-size: 1rem;
@@ -1754,7 +1756,7 @@ p{
         font-size: 1rem;
     }
     .prosesBelajarContainer h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     .prosesBelajarDetail{
@@ -1794,6 +1796,9 @@ p{
         flex-direction: column;
         gap: 24px;
     }
+    .MMLContainer h2{
+        font-size: 1.5rem;
+    }
 
     /* ----------SITS------------- */
     
@@ -1832,6 +1837,10 @@ p{
         width: 100%;
         
     }
+    .SITScontainer_InnerText h2{
+        font-size: 1.5rem;
+
+    }
 
 
     /* ---------------Contact Us-------- */
@@ -1843,6 +1852,9 @@ p{
         flex-direction: column;
         gap: 24px;
     }
+    .CUCtextbase h2{
+        font-size: 1.5rem;
+    }
 
     /* ---------------FAQ------------ */
 
@@ -1852,7 +1864,7 @@ p{
         font-size: 1rem;
     }
     .FAQContainer h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
