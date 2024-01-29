@@ -1761,12 +1761,14 @@ p{
     }
     .prosesBelajarDetail{
         flex-direction: column;
+        align-items: center;
     }
     .prosesBelajarDetailCard img{
         width: 20%;
     }
     .prosesBelajarDetailBorder{
-        padding: 2px 200px;
+        padding: 2px 150px;
+        align-items: center;
 
     }
     .PBcontainer_SIT{
