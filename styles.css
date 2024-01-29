@@ -76,7 +76,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -100,7 +100,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -260,7 +260,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -284,7 +284,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -585,7 +585,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -609,7 +609,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1692,7 +1692,7 @@ p{
         width: 20%;
     }
     /* -------------SITS---------------- */
-     .SITcontainer_green{
+    .SITcontainer_green{
         flex-direction: column-reverse;
     }
     .SITcontainer_image{
@@ -1771,6 +1771,7 @@ p{
         width: 90%;
         flex-direction: column;
         gap: 24px;
+        
     
     }
     .PBcontainer1_SIT{
@@ -1789,7 +1790,7 @@ p{
         width: 100%;
     }
     .MMLButtonContainer{
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         gap: 24px;
     }
@@ -1810,7 +1811,28 @@ p{
         width: 100%;
         flex-direction: column;
         gap: 24px;
+        flex-grow: 1;
+        padding: 0;
     }
+    .SITScontainer1_SIT a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .SITScontainer1_SIT{
+        width: 100%;
+        
+    }
+    .SITScontainer2_SIT a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .SITScontainer2_SIT{
+        width: 100%;
+        
+    }
+
 
     /* ---------------Contact Us-------- */
 
@@ -1851,6 +1873,24 @@ p{
 
     .FAQcontainer2 a{
         font-size: 1rem;
+    }
+    .FAQButtonContainer{
+        width: 100%;
+        flex-grow: 1;
+    }
+    .FAQcontainer1 a{
+        display: flex;
+        justify-content: center;
+    }
+    .FAQcontainer2 a{
+        display: flex;
+        justify-content: center;
+    }
+    .FAQcontainer1{
+        width: 100%;
+    }
+    .FAQcontainer2{
+        width: 100%;
     }
     /* ----FOOTER---------- */
     .footerContainer{
